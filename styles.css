@@ -1,8 +1,78 @@
-.nav {
-    font-size: 10rem;
+body{
+    margin: 0;
+    background-color: #f6f6f6;
+    color: #08080d;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
 }
 
-.hero {
-    font-size: 10rem;
-    font-weight: bold;
+/* Typography */
+
+/* Links */
+
+a{
+    font-size: 1rem;
+    margin: .5rem;
+}
+
+/* Layout */
+
+
+.page-container{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 10px 20px;
+    font-size: 1rem;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 75vw;
+}
+
+.nav-link-container{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 0.7rem;
+} 
+
+.logo-monogram{
+    margin: 0;
+    display: inline-block;
+    width: 40px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    bottom: 0;
+}
+
+.footer-link{
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #08080d;
+}
+
+.footer-p{
+    font-size: 0.8rem;
+}
+
+.hero-vid{
+    width: 100%;
+    z-index: -1;
 }
